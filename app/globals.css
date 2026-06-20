@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --purple-primary: #200D5F;
+  --purple-dark: #14073d;
+  --purple-light: #341a94;
+  
+  --navy: #200D5F;
+  --navy-dark: #14073d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-hind), var(--font-poppins), sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    /* Ekhane green color replace kore apnar natun color code (#200D5F) boshano hoyeche */
+    @apply inline-block bg-[#200D5F] text-white py-4 px-10 rounded-full font-bold text-lg cursor-pointer border-none transition-all duration-200 shadow-lg shadow-purple-950/30 hover:bg-[#14073d] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-purple-950/40;
+  }
+
+  .btn-large {
+    @apply py-5 px-14 text-xl;
+  }
+
+  .section-title {
+    /* Section title-er color-o apnar natun brand color-e change kora hoyeche */
+    @apply text-3xl md:text-4xl font-bold text-[#200D5F] text-center mb-12;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:-translate-y-1 hover:shadow-md;
+  }
+}
+
+/* FAQ accordion */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.open {
+  max-height: 200px;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease forwards;
+}
