@@ -91,7 +91,7 @@ export default function Hero() {
             <div className="grid grid-cols-4 gap-3 md:gap-4">
               {/* Days Block */}
               <div className="bg-gradient-to-b from-white to-slate-100 border border-white rounded-xl shadow-md p-3 text-center flex flex-col items-center justify-center">
-                <span className="text-3xl md:text-4xl font-black text-[#200D5F] tracking-tight">
+                <span className="text-3xl md:text-4xl font-black text-red-600 tracking-tight">
                   {toBengaliNumber(parseInt(formatTime(timeLeft.days)))}
                 </span>
                 <span className="text-xs md:text-sm font-medium text-gray-500 mt-1">
@@ -101,7 +101,7 @@ export default function Hero() {
 
               {/* Hours Block */}
               <div className="bg-gradient-to-b from-white to-slate-100 border border-white rounded-xl shadow-md p-3 text-center flex flex-col items-center justify-center">
-                <span className="text-3xl md:text-4xl font-black text-[#200D5F] tracking-tight">
+                <span className="text-3xl md:text-4xl font-black text-red-600 tracking-tight">
                   {toBengaliNumber(parseInt(formatTime(timeLeft.hours)))}
                 </span>
                 <span className="text-xs md:text-sm font-medium text-gray-500 mt-1">
@@ -111,7 +111,7 @@ export default function Hero() {
 
               {/* Minutes Block */}
               <div className="bg-gradient-to-b from-white to-slate-100 border border-white rounded-xl shadow-md p-3 text-center flex flex-col items-center justify-center">
-                <span className="text-3xl md:text-4xl font-black text-[#200D5F] tracking-tight">
+                <span className="text-3xl md:text-4xl font-black text-red-600 tracking-tight">
                   {toBengaliNumber(parseInt(formatTime(timeLeft.minutes)))}
                 </span>
                 <span className="text-xs md:text-sm font-medium text-gray-500 mt-1">

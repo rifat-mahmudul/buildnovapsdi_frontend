@@ -31,7 +31,7 @@ export default function UrgentCTA() {
 
         {/* Small Footer Info Text */}
         <p className="text-xs md:text-sm text-slate-300/80 font-medium tracking-wide flex items-center justify-center gap-1.5 opacity-90">
-          🗓️ ২৯ জুন ২০২৬ • সন্ধ্যা ৭:০০ • Zoom লাইভ
+          🗓️ 29-30 June, 2026 • Zoom লাইভ
         </p>
       </div>
 
