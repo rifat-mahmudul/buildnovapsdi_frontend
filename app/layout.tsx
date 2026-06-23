@@ -12,9 +12,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Structural Drawing Foundation Class — 100% FREE",
+  title: "Structural Drawing Foundation Class",
   description:
-    "শুরু করো Professional Structural Career-এর সঠিক পথে। Foundation for Structural Drawing & Detailing — এখন সম্পূর্ণ বিনামূল্যে।",
+    "শুরু করো Professional Structural Career এর সঠিক পথে। Foundation for Structural Drawing & Detailing.",
   keywords:
     "structural drawing, civil engineering Bangladesh, RCC detailing, free class",
 };
